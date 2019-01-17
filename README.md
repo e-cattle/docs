@@ -1,4 +1,4 @@
-Titan Framework Website
-=======================
+e-Cattle Website
+================
 
-Website of Titan Framework, avaliable at http://titanframework.com, with complete technical documentation, books, forum, tutorials and tips.
+Website of e-Cattle project, avaliable at https://e-cattle.github.io, with complete technical documentation.

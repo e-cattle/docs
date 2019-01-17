@@ -1,13 +1,19 @@
 ---
 layout: page
-title: Titan
-subtitle: Um framework PHP para gerenciadores de conteúdo.
+title: e-Cattle
+subtitle: IoT platform to precision livestock
 ---
 
 <div class="main-explain-area jumbotron">
   <h2>Overview</h2>
 
-  <p>O Titan é um framework para instanciação de gerenciadores de conteúdo (do inglês, <i>Content Management Systems - CMS</i>) e <i>backend</i> (com barramento REST-Like) para a criação de aplicações Web complexas e distribuídas. A proposta do Titan Framework é ser uma ferramenta de desenvolvimento simples e completa, permitindo criar aplicações robustas de forma rápida e fácil por meio do reuso de componentes (instanciados com linguagem de marcação XML). Executa em servidores Web com <a href="http://php.net" target="_blank">PHP</a> (5.3 ou superior) e com banco de dados <a href="http://postgresql.org" target="_blank">PostgreSQL</a> (8.4 ou superior).</p>
+  <p>
+    <b>e-Cattle</b> is a IoT (Internet of Things) platform for precision livestock. It's aims to centralize and padronize all sensor data collected in farms to beef cattle production.
+    To this, provides a RESTful API service bus to receive sensor data from smart objects with differents sensors and unknow brands/models.
+    All data is semantically organized, persisted in no-SQL database and available in another RESTful API, with query language support, to be consumed by
+    high level applications. Both two service buses and database are implemented in farm with a totem device type named <b>BigBoxx</b>, build with a Raspberry PI.
+    Therefore, the rural property do not need a internet connection, as is common in rural areas of Brazil.
+  </p>
 
   <div class="get-started-wrap">
     <a class="btn btn-success btn-lg get-started-btn" href="/docs/quickstart">Get Started!</a>
@@ -16,7 +22,6 @@ subtitle: Um framework PHP para gerenciadores de conteúdo.
   <div class="partners">
 	  <a href="http://please.cnpgc.embrapa.br" target="_blank"><div class="please"></div></a>
 	  <a href="http://embrapa.br/gado-de-corte" target="_blank"><div class="embrapa"></div></a>
-	  <a href="http://www.ledes.net" target="_blank"><div class="ledes"></div></a>
 	  <a href="http://facom.ufms.br" target="_blank"><div class="facom"></div></a>
 	  <a href="http://ufms.br" target="_blank"><div class="ufms"></div></a>
   </div>

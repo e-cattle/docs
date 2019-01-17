@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Licença
-subtitle: Licença de software do Titan Framework, Versão 3.
+title: License
+subtitle: BSD open-source license of e-Cattle software artifacts.
 ---
 
-Copyright © 2013-2016, Federal University of Mato Grosso do Sul (UFMS) and Brazilian Agricultural Research Corporation (Embrapa). All rights reserved.
+Copyright © 2018 Federal University of Mato Grosso do Sul (UFMS) and Brazilian Agricultural Research Corporation (Embrapa). All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -14,20 +14,23 @@ Redistribution and use in source and binary forms, with or without modification,
 
 3. Neither the name of the holders nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
+4. Products derived from this software should reference it, as well the specific version from which it derived and the down list of holders, only in the "about" screen and documentation.
+
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+**This license applies to every software artifacts of e-Cattle platform available at https://github.com/e-cattle.**
 
 ## List of Holders ##
 
-- **Federal University of Mato Grosso do Sul (UFMS)**: through the Software Engineering Laboratory (LEDES), located in its Faculty of Computing (FACOM) at Campo Grande - MS - Brazil.
-- **Brazilian Agricultural Research Corporation (Embrapa)**: through the Laboratory for Precision Livestock, Environment And Software Engineering (PLEASE Lab), located in Embrapa Beef Cattle at Campo Grande - MS - Brazil.
+- [Federal University of Mato Grosso do Sul (UFMS)](https://ufms.br)
+- [Brazilian Agricultural Research Corporation (Embrapa)](https://embrapa.br)
 
 ## List of Contributors ##
 
+- [Bruno de Abreu Cáceres](mailto:brunoacaceres@gmail.com)
 - [Camilo Carromeu](mailto:camilo.carromeu@embrapa.br)
-- [Hercules da Costa Sandim](mailto:hercules@facom.ufms.br)
-- [Humberto Rafael Henrique Pereira](mailto:begnini@gmail.com)
-- [Marcelo Augusto Santos Turine](mailto:turine@facom.ufms.br)
-- [Marcio Aparecido Inácio da Silva](mailto:marcio@facom.ufms.br)
-- [Maxwell Sampaio dos Santos](mailto:maxwell.santos@ufms.br)
-- [Rodrigo Coin Curvo](mailto:rodrigoccurvo@gmail.com)
-- [Vitor Mesaque Alves de Lima](mailto:vitor.lima@ufms.br)
+- [Luciano Gonda](mailto:gonda@facom.ufms.br)
+- [Hana Karina Salles Rubinsztejn](mailto:hana@facom.ufms.br)
+- [Leandro Borges](mailto:leandroborges@outlook.com)
+- [Nalvo Franco de Almeida Júnior](mailto:nalvo@facom.ufms.br)
+- [Virmerson Bento dos Santos](mailto:virmerson@htcursos.com)

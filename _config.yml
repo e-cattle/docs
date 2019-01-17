@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://www.titanframework.com"
+url: "https://e-cattle.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,22 +14,21 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Titan Framework
+title: e-Cattle
 
 # Short description of your site
-description: A PHP framework to create content management systems.
+description: IoT platform to precision livestock
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Documentação: "docs/preface"
-  Fórum: "https://groups.google.com/forum/#!forum/titan-framework"
+  Documentation: "docs/preface"
   Licença: "license"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "https://raw.githubusercontent.com/e-cattle/art/master/eCattle-square.png"
 
 # --- Footer options --- #
 
@@ -37,26 +36,26 @@ avatar: "/img/avatar-icon.png"
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Camilo Carromeu
-  email: "camilo@titanframework.com"
+#  email: "camilo.carromeu@embrapa.br"
 #  facebook: ccarromeu
-  github: titan-framework
-  twitter: titanframework
-  reddit: carromeu
-  google-plus: +camilo-carromeu
-  linkedin: carromeu
+  github: e-cattle
+#  twitter: titanframework
+#  reddit: carromeu
+#  google-plus: +camilo-carromeu
+#  linkedin: carromeu
 #  xing: yourname
-  stackoverflow: 5447767/rain-maker
+#  stackoverflow: 5447767/rain-maker
 #  snapchat: yourname  # eg. daattali
-  instagram: carromeu # eg. daattali
-  youtube: user/ccarromeu   # eg. user/daattali or channel/daattali
+#  instagram: carromeu # eg. daattali
+#  youtube: user/ccarromeu   # eg. user/daattali or channel/daattali
 #  spotify: yourname   # eg. daattali
 
 # Select which links to show in the footer
 footer-links-active:
   rss: true
   facebook: false
-  email: true
-  twitter: true
+  email: false
+  twitter: false
   google-plus: false
   github: true
   reddit: false
@@ -77,14 +76,14 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "TitanFramework.com"
+url-pretty: "e-Cattle.GitHub.io"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "titan-framework"
+disqus: "e-cattle"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-124202509-9"
 
 # Facebook App ID
 # fb_app_id: ""
