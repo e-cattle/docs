@@ -1,33 +1,26 @@
 ---
 layout: page
 title: Quickstart
-subtitle: Instanciando em 3 minutos sua aplicação.
+subtitle: Deploying BigBoxx in 3 minutes.
 comments: true
 ---
 
-Para instanciar sua primeira aplicação, utilize o [Composer](https://getcomposer.org):
+Has a auto-deploy script to help you to turn e-Cattle BigBoxx operational. However, before you runit, pay attention to the **prerequisites**:
 
-```bash
-composer create-project titan-framework/instance path/to/local/folder
+* Get a **Raspberry PI 3 Model B** (or newer) with official Raspberry Pi Touch Display;
+* Install **Raspbian without desktop** (last version); and
+* Configure network and **internet access**.
+
+So, you can run auto-deploy script by two ways:
+
+**Using CURL**
+
+```shell
+$ curl -sL https://raw.githubusercontent.com/e-cattle/install/master/install.sh | sudo bash -
 ```
 
-Após finalizar o comando acima, inicialize a *box* do [Vagrant](https://vagrantup.com) para executar sua aplicação:
+**Using WGET**
 
-```bash
-cd path/to/local/folder
-vagrant up
+```shell
+$ wget -qO- https://raw.githubusercontent.com/e-cattle/install/master/install.sh | sudo bash -
 ```
-
-Ao término, sua instância estará rodando em **http://localhost:8090**. Para acessá-la, utilize "**admin**" nos campos de login e senha.
-
-Neste ambiente, todas as mensagens de e-mail são capturadas pelo [MailHog](https://github.com/mailhog/MailHog) e você pode visualiá-las no endereço **http://localhost:8025**.
-
-Você pode acessar o _shell_ da máquina virtual utilizando SSH em **localhost:2222**.
-
-Você também pode utilizar o [Docker](https://docker.com) pra criar um _container_ com todos os requisitos (obrigatórios e opcionais). Edite o mapeamento de portas no arquivo ```docker-compose.yml``` como preferir e faça:
-
-```bash
-docker-compose up -d
-```
-
-Agora você pode modificar o código desta instância-base para implementar seus próprios requisitos. Para isso, consulte a [documentacão](/docs/preface) na íntegra do *framework*.
