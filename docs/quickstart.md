@@ -7,7 +7,7 @@ comments: true
 
 Has a auto-deploy script to help you to turn e-Cattle BigBoxx operational. However, before you runit, pay attention to the **prerequisites**:
 
-* Get a **Raspberry PI 3 Model B** (or newer) with official Raspberry Pi Touch Display;
+* Get a **Raspberry PI 3 Model B** (or newer) with official Raspberry PI Touch Display;
 * Install **Raspbian without desktop** (last version); and
 * Configure network and **internet access**.
 
